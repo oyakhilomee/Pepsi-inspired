@@ -1,0 +1,163 @@
+$color_blue: rgb(32, 102, 186);
+$color_red: rgb(205, 28, 43);
+$color_black: rgb(31, 30, 31);
+
+html,
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.para {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: $color_blue;
+  color: #fff;
+}
+// Start of nav styling
+
+.nav-home {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    // justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
+
+.brand-img {
+  width: 5.2rem;
+  height: 5.2rem;
+}
+
+.nav-ul {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  .nav-link {
+    padding-left: 2.2rem;
+  }
+}
+
+// Start of landing-page styling
+
+.landing-container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    // background-color: red;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .left {
+    @media screen and (min-width: 768px) {
+      width: 50%;
+      //   background-color: green;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .para-one {
+      text-transform: uppercase;
+      font-size: 4rem;
+    }
+    .para-two {
+      text-transform: uppercase;
+      font-size: 5rem;
+    }
+    .landing-btn {
+      color: #2b2828;
+      background-color: #fff;
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      border: none;
+      text-transform: uppercase;
+      border-radius: 2rem;
+      padding: 0.5rem 0.9rem;
+    }
+  }
+
+  .right {
+    @media screen and (min-width: 768px) {
+      width: 50%;
+      //   background-color: blue;
+      //   justify-content: flex-end;
+    }
+  }
+  .right-center {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .main-img {
+      height: 70vh;
+    }
+    .social-icons {
+      .fab {
+        padding-bottom: 2.5rem;
+      }
+    }
+  }
+}
+
+// Start of bottles-div styling
+
+.bottles-div {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .pepsi-bottle {
+    margin-left: 3rem;
+  }
+
+  .ash-pepsi {
+    // width: 5rem;
+    max-width: 90%;
+    height: 10vh;
+  }
+
+  .blue-pepsi {
+    // width: 5rem;
+    max-width: 90%;
+    height: 10vh;
+  }
+
+  .black-pepsi {
+    // width: 5rem;
+    max-width: 90%;
+    height: 10vh;
+  }
+}
