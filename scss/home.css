@@ -10,6 +10,7 @@ li {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 a:hover {
@@ -62,6 +63,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-right: 7rem;
   }
 }
 
@@ -130,6 +132,7 @@ body {
 @media screen and (min-width: 768px) {
   .landing-container .right {
     width: 50%;
+    margin-left: 11rem;
   }
 }
 
@@ -170,6 +173,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     margin: 0 auto;
+    margin-right: 19rem;
   }
 }
 
